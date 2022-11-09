@@ -28,6 +28,16 @@ h1 {
   text-align: center;
 }
 
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (min-width: 786px) {
   h1 {
     font-size: 3em;
